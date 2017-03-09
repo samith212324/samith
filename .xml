@@ -3,14 +3,15 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.in.acer</groupId>
     <artifactId>acer</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>6-SNAPSHOT</version>
     <packaging>war</packaging>
 	<scm>
 	<url>https://github.com/samith212324/samith.git</url>
 	<connection>scm:git:git://github.com/samith212324/samith.git</connection>
 	<developerConnection>scm:git:git@github.com:samith212324/samith.git</developerConnection>
 	
-   </scm>
+     <tag>HEAD</tag>
+  </scm>
 
     <parent>
         <groupId>org.terasoluna.gfw</groupId>
@@ -93,9 +94,10 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
                     <version>${maven-war-plugin.version}</version>
-                     <configuration>
-                      <webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
-                      </configuration>
+                    <configuration>
+                     <webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
+                    </configuration>
+                </plugin>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -306,7 +308,7 @@
     </repository>
 	
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>central</id>
         <name>DESKTOP-F23DK7G-snapshots</name>
         <url>http://localhost:8085/artifactory/plugins-snapshot-local</url>
     </snapshotRepository>
