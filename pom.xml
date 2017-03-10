@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.in.acer</groupId>
     <artifactId>acer</artifactId>
-    <version>6-SNAPSHOT</version>
+    <version>5.1-SNAPSHOT</version>
     <packaging>war</packaging>
 	<scm>
 	<url>https://github.com/samith212324/samith.git</url>
